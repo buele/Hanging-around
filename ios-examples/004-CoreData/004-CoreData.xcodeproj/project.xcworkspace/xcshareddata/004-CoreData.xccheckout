@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>9D1A2DFD-DCCF-4EB5-A08C-430EEFFA7D3C</string>
+	<key>IDESourceControlProjectName</key>
+	<string>004-CoreData</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>9FFB8D96-50AE-4632-9A16-37A9C5DB3B56</key>
+		<string>https://github.com/buele/ios-examples.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>004-CoreData/004-CoreData.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>9FFB8D96-50AE-4632-9A16-37A9C5DB3B56</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/buele/ios-examples.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>9FFB8D96-50AE-4632-9A16-37A9C5DB3B56</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>9FFB8D96-50AE-4632-9A16-37A9C5DB3B56</string>
+			<key>IDESourceControlWCCName</key>
+			<string>ios-examples</string>
+		</dict>
+	</array>
+</dict>
+</plist>

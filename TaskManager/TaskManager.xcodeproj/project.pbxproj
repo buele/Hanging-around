@@ -1,0 +1,315 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		56134B18194E6A0600D98308 /* MainView.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 56134B16194E6A0600D98308 /* MainView.cpp */; };
+		568ACB5019412C8B003A7C78 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 568ACB4F19412C8B003A7C78 /* main.cpp */; };
+		569B08A6194F3D6E00CDF3FA /* Application.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 569B08A4194F3D6E00CDF3FA /* Application.cpp */; };
+		569B08A9194F4E8900CDF3FA /* MainController.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 569B08A7194F4E8900CDF3FA /* MainController.cpp */; };
+		569B08AD194F6D7E00CDF3FA /* Subject.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 569B08AB194F6D7E00CDF3FA /* Subject.cpp */; };
+		569B08B0194F6D8B00CDF3FA /* Observer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 569B08AE194F6D8A00CDF3FA /* Observer.cpp */; };
+		56D9D0171942864B007794DE /* libmysqlclient.18.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 56D9D0161942864B007794DE /* libmysqlclient.18.dylib */; };
+		56E6994A19436BA2003BA7C5 /* DBManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 56E6994819436BA2003BA7C5 /* DBManager.cpp */; };
+		56E89C7F194B3ED800F5BC04 /* EntityManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 56E89C7D194B3ED800F5BC04 /* EntityManager.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		568ACB4A19412C8B003A7C78 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 8;
+			dstPath = "usr/local/mysql-5.6.19-osx10.7-x86_64/lib";
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		56134B16194E6A0600D98308 /* MainView.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MainView.cpp; sourceTree = "<group>"; };
+		56134B17194E6A0600D98308 /* MainView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainView.h; sourceTree = "<group>"; };
+		568ACB4C19412C8B003A7C78 /* TaskManager */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = TaskManager; sourceTree = BUILT_PRODUCTS_DIR; };
+		568ACB4F19412C8B003A7C78 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		569B08A4194F3D6E00CDF3FA /* Application.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Application.cpp; sourceTree = "<group>"; };
+		569B08A5194F3D6E00CDF3FA /* Application.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Application.h; sourceTree = "<group>"; };
+		569B08A7194F4E8900CDF3FA /* MainController.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MainController.cpp; sourceTree = "<group>"; };
+		569B08A8194F4E8900CDF3FA /* MainController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainController.h; sourceTree = "<group>"; };
+		569B08AB194F6D7E00CDF3FA /* Subject.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Subject.cpp; sourceTree = "<group>"; };
+		569B08AC194F6D7E00CDF3FA /* Subject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Subject.h; sourceTree = "<group>"; };
+		569B08AE194F6D8A00CDF3FA /* Observer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Observer.cpp; sourceTree = "<group>"; };
+		569B08AF194F6D8B00CDF3FA /* Observer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Observer.h; sourceTree = "<group>"; };
+		56D9D0161942864B007794DE /* libmysqlclient.18.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libmysqlclient.18.dylib; path = TaskManager/libmysqlclient.18.dylib; sourceTree = "<group>"; };
+		56E6994819436BA2003BA7C5 /* DBManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DBManager.cpp; sourceTree = "<group>"; };
+		56E6994919436BA2003BA7C5 /* DBManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBManager.h; sourceTree = "<group>"; };
+		56E89C7D194B3ED800F5BC04 /* EntityManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = EntityManager.cpp; sourceTree = "<group>"; };
+		56E89C7E194B3ED800F5BC04 /* EntityManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EntityManager.h; sourceTree = "<group>"; };
+		56E89C80194B401D00F5BC04 /* structures.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = structures.h; sourceTree = "<group>"; };
+		56E89C81194B46E500F5BC04 /* exceptions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = exceptions.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		568ACB4919412C8B003A7C78 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56D9D0171942864B007794DE /* libmysqlclient.18.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		568ACB4319412C8B003A7C78 = {
+			isa = PBXGroup;
+			children = (
+				56D9D0161942864B007794DE /* libmysqlclient.18.dylib */,
+				568ACB4E19412C8B003A7C78 /* TaskManager */,
+				568ACB4D19412C8B003A7C78 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		568ACB4D19412C8B003A7C78 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				568ACB4C19412C8B003A7C78 /* TaskManager */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		568ACB4E19412C8B003A7C78 /* TaskManager */ = {
+			isa = PBXGroup;
+			children = (
+				569B08AA194F6D6100CDF3FA /* Observer */,
+				568ACB4F19412C8B003A7C78 /* main.cpp */,
+				56E6994819436BA2003BA7C5 /* DBManager.cpp */,
+				56E6994919436BA2003BA7C5 /* DBManager.h */,
+				56E89C7D194B3ED800F5BC04 /* EntityManager.cpp */,
+				56E89C7E194B3ED800F5BC04 /* EntityManager.h */,
+				56E89C80194B401D00F5BC04 /* structures.h */,
+				56E89C81194B46E500F5BC04 /* exceptions.h */,
+				56134B16194E6A0600D98308 /* MainView.cpp */,
+				56134B17194E6A0600D98308 /* MainView.h */,
+				569B08A4194F3D6E00CDF3FA /* Application.cpp */,
+				569B08A5194F3D6E00CDF3FA /* Application.h */,
+				569B08A7194F4E8900CDF3FA /* MainController.cpp */,
+				569B08A8194F4E8900CDF3FA /* MainController.h */,
+			);
+			path = TaskManager;
+			sourceTree = "<group>";
+		};
+		569B08AA194F6D6100CDF3FA /* Observer */ = {
+			isa = PBXGroup;
+			children = (
+				569B08AB194F6D7E00CDF3FA /* Subject.cpp */,
+				569B08AC194F6D7E00CDF3FA /* Subject.h */,
+				569B08AE194F6D8A00CDF3FA /* Observer.cpp */,
+				569B08AF194F6D8B00CDF3FA /* Observer.h */,
+			);
+			name = Observer;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		568ACB4B19412C8B003A7C78 /* TaskManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 568ACB5319412C8B003A7C78 /* Build configuration list for PBXNativeTarget "TaskManager" */;
+			buildPhases = (
+				568ACB4819412C8B003A7C78 /* Sources */,
+				568ACB4919412C8B003A7C78 /* Frameworks */,
+				568ACB4A19412C8B003A7C78 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TaskManager;
+			productName = TaskManager;
+			productReference = 568ACB4C19412C8B003A7C78 /* TaskManager */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		568ACB4419412C8B003A7C78 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = Buele;
+				TargetAttributes = {
+					568ACB4B19412C8B003A7C78 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+				};
+			};
+			buildConfigurationList = 568ACB4719412C8B003A7C78 /* Build configuration list for PBXProject "TaskManager" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 568ACB4319412C8B003A7C78;
+			productRefGroup = 568ACB4D19412C8B003A7C78 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				568ACB4B19412C8B003A7C78 /* TaskManager */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		568ACB4819412C8B003A7C78 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				568ACB5019412C8B003A7C78 /* main.cpp in Sources */,
+				56134B18194E6A0600D98308 /* MainView.cpp in Sources */,
+				569B08AD194F6D7E00CDF3FA /* Subject.cpp in Sources */,
+				569B08A6194F3D6E00CDF3FA /* Application.cpp in Sources */,
+				56E89C7F194B3ED800F5BC04 /* EntityManager.cpp in Sources */,
+				569B08B0194F6D8B00CDF3FA /* Observer.cpp in Sources */,
+				569B08A9194F4E8900CDF3FA /* MainController.cpp in Sources */,
+				56E6994A19436BA2003BA7C5 /* DBManager.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		568ACB5119412C8B003A7C78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				METAL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		568ACB5219412C8B003A7C78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				METAL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		568ACB5419412C8B003A7C78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Applications/Xcode6-Beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include",
+					"/usr/local/mysql-5.6.19-osx10.7-x86_64/include/",
+				);
+				LD_DYLIB_INSTALL_NAME = "";
+				LIBRARY_SEARCH_PATHS = "/usr/local/mysql-5.6.19-osx10.7-x86_64/lib";
+				OTHER_LDFLAGS = "-lmysqlclient";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = "i386 x86_64";
+			};
+			name = Debug;
+		};
+		568ACB5519412C8B003A7C78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Applications/Xcode6-Beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include",
+					"/usr/local/mysql-5.6.19-osx10.7-x86_64/include/",
+				);
+				LD_DYLIB_INSTALL_NAME = "";
+				LIBRARY_SEARCH_PATHS = "/usr/local/mysql-5.6.19-osx10.7-x86_64/lib";
+				OTHER_LDFLAGS = "-lmysqlclient";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		568ACB4719412C8B003A7C78 /* Build configuration list for PBXProject "TaskManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				568ACB5119412C8B003A7C78 /* Debug */,
+				568ACB5219412C8B003A7C78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		568ACB5319412C8B003A7C78 /* Build configuration list for PBXNativeTarget "TaskManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				568ACB5419412C8B003A7C78 /* Debug */,
+				568ACB5519412C8B003A7C78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 568ACB4419412C8B003A7C78 /* Project object */;
+}
