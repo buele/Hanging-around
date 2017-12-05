@@ -1,0 +1,38 @@
+
+
+<link rel="import" href="../../bower_components/polymer/polymer.html">
+
+
+
+<dom-module id="remote-component">
+<template>
+<h1>THIS IS ELEMENT-4</h1>
+</template>
+<script>
+    (function() {
+       'use strict';
+       class RemoteComponent{
+
+                                            /* --- POLYMER LIFECYCLE METHODS --- */
+
+            /**
+             * BeforeRegister method Polymer calls before creating the element.
+             * This method is where you shoud define the is property (element's name) and
+             * properties  object.
+             *
+             * @return {null}
+             */
+           beforeRegister() {
+               this.is = 'remote-component';
+               alert('hello world');
+
+           }
+
+       };
+
+      Polymer(RemoteComponent);
+
+    })();
+  </script>
+
+</dom-module>
